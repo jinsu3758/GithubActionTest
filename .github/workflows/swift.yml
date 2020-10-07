@@ -15,8 +15,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build
       run: |
-      swift build -v
-      swift package init --type library
+      swift build -v,
+      swift package init --type library,
       swift package generate-xcodeproj
       
     - name: Run tests
