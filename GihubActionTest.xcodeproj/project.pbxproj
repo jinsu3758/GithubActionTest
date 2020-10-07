@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		74EC9879252D819E00BBC7A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC9878252D819E00BBC7A3 /* AppDelegate.swift */; };
-		74EC987B252D819E00BBC7A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC987A252D819E00BBC7A3 /* SceneDelegate.swift */; };
 		74EC987D252D819E00BBC7A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EC987C252D819E00BBC7A3 /* ViewController.swift */; };
 		74EC9880252D819E00BBC7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74EC987E252D819E00BBC7A3 /* Main.storyboard */; };
 		74EC9882252D81A000BBC7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74EC9881252D81A000BBC7A3 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		74EC9875252D819E00BBC7A3 /* GihubActionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GihubActionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74EC9878252D819E00BBC7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		74EC987A252D819E00BBC7A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		74EC987C252D819E00BBC7A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74EC987F252D819E00BBC7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74EC9881252D81A000BBC7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				74EC9878252D819E00BBC7A3 /* AppDelegate.swift */,
-				74EC987A252D819E00BBC7A3 /* SceneDelegate.swift */,
 				74EC987C252D819E00BBC7A3 /* ViewController.swift */,
 				74EC987E252D819E00BBC7A3 /* Main.storyboard */,
 				74EC9881252D81A000BBC7A3 /* Assets.xcassets */,
@@ -260,7 +257,6 @@
 			files = (
 				74EC987D252D819E00BBC7A3 /* ViewController.swift in Sources */,
 				74EC9879252D819E00BBC7A3 /* AppDelegate.swift in Sources */,
-				74EC987B252D819E00BBC7A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,8 +433,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HSKSVJPZJD;
+				DEVELOPMENT_TEAM = AL9L4NE9HL;
 				INFOPLIST_FILE = GihubActionTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,8 +453,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HSKSVJPZJD;
+				DEVELOPMENT_TEAM = AL9L4NE9HL;
 				INFOPLIST_FILE = GihubActionTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
