@@ -1,6 +1,6 @@
 name: Swift
 
-on:
+on: # 언제 행동을 트리거 시킬지
   push:
     branches: [ master ]
   pull_request:
