@@ -484,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.js.GihubActionTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GihubActionTest.app/GihubActionTest";
 			};
 			name = Debug;
@@ -506,7 +506,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.js.GihubActionTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GihubActionTest.app/GihubActionTest";
 			};
 			name = Release;
@@ -526,7 +526,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.js.GihubActionTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = GihubActionTest;
 			};
 			name = Debug;
@@ -546,7 +546,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.js.GihubActionTestUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_TARGET_NAME = GihubActionTest;
 			};
 			name = Release;
